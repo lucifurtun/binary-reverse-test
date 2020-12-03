@@ -146,6 +146,3 @@ dmypy.json
 # Binary files
 *.mp3
 *.mov
-
-# Text files
-*.txt

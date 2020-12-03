@@ -1,6 +1,6 @@
 # README #
 
-### Run script: ###
+### Run script ###
 `python binary_reverse.py <file1> <file2> ...`
 
 ### Run tests ###
