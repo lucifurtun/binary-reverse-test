@@ -25,6 +25,9 @@ def generate_reversed_file(input_file_path: Path) -> Path:
             if current_position == FIRST_BYTE_POSITION:
                 break
 
+            if current_position < BUFFER_SIZE:
+                bytes_to_read = current_position
+
             index -= bytes_to_read
             input_file.seek(index, os.SEEK_END)
 
