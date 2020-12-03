@@ -146,3 +146,6 @@ dmypy.json
 # Binary files
 *.mp3
 *.mov
+
+# IDE Files
+.idea
